@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calculator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="calc.css" rel="stylesheet" type="text/css">
+  <script src="https://use.fontawesome.com/5418e3a7d6.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="calc.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <h4>Electronic Calculator</h4>
+    <div class="screen">
+      <h3 class="screenText main" id="mainout"><br></h3>
+      <p class= "screenText adding" id="extendout"><br></p>
+    </div>
+    <div class="row" id="row1">
+        <button type="button" class="btn btn-default left col-xs-3 AC" val="AC">AC</button>
+        <button type="button" class="btn btn-default col-xs-3" val="CE">CE</button>
+        <button type="button" class="btn btn-default col-xs-3" val="/">/</button>
+        <button type="button" class="btn btn-default col-xs-3" val="*">*</button>
+    </div>
+    <div class="row">
+        <button type="button" class="btn btn-default left col-xs-3 btn7" val='buttonValue'>7</button>
+        <button type="button" class="btn btn-default col-xs-3">8</button>
+        <button type="button" class="btn btn-default col-xs-3">9</button>
+        <button type="button" class="btn btn-default col-xs-3">-</button>
+    </div>
+    <div class="row">
+        <button type="button" class="btn btn-default left col-xs-3">4</button>
+        <button type="button" class="btn btn-default col-xs-3">5</button>
+        <button type="button" class="btn btn-default col-xs-3">6</button>
+        <button type="button" class="btn btn-default col-xs-3">+</button>
+    </div>
+    <div class="row">
+        <button type="button" class="btn btn-default left col-xs-3">1</button>
+        <button type="button" class="btn btn-default col-xs-3">2</button>
+        <button type="button" class="btn btn-default col-xs-3">3</button>
+        <button type="button" class="btn btn-default col-xs-3">.</button>
+    </div>
+    <div class="row">
+        <button type="button" class="btn btn-default left zero col-xs-6">0</button>
+        <button type="button" class="btn btn-default equal col-xs-6">=</button>
+    </div>
+  </div>
+</body>
+</html>
